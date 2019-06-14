@@ -1,0 +1,10 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: microservice-config-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://xmccjyqs.com:7001/eureka/
